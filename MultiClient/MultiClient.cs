@@ -97,6 +97,7 @@ namespace MultiClient
             Array.Copy(buffer, data, received);
             string text = Encoding.ASCII.GetString(data);
             Console.WriteLine($"Server : {text}");
+
         }
     }
 }
